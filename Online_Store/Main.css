@@ -75,21 +75,21 @@ main {
     row-gap: 20px;
 }
 
-div {
+.grid_element {
     background-color: var(--primary-darker);
 }
 
-div img {
+.grid_element img {
     width: 300px;
     height: 300px;
 }
 
-div p {
+.grid_element p {
     color: white;
     text-transform: uppercase;
 }
 
-div span {
+.grid_element span {
     color: var(--secondary-color);
 }
 
@@ -117,4 +117,43 @@ footer p {
     padding: 20px;
     color: white;
     font-size: 18px;
+}
+
+
+/***About us***/
+
+#about,
+#wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+#main_div {
+    display: flex;
+    flex-direction: row;
+}
+
+#main_div img {
+    width: 450px;
+}
+
+#main_div p {
+    line-height: 40px;
+    text-align: justify;
+    text-transform: none;
+    padding: 10px 20px;
+}
+
+#main_div p,
+.args p {
+    color: white;
+}
+
+h3 {
+    color: var(--secondary-color);
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
 }
