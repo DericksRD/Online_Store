@@ -70,9 +70,12 @@ main {
     width: 60%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 33.3%);
     column-gap: 10px;
     row-gap: 20px;
+}
+
+#main_grid {
+    grid-template-columns: repeat(3, 33.3%);
 }
 
 .grid_element {
@@ -111,6 +114,9 @@ footer {
     margin-top: 20px;
     text-align: center;
     background-color: var(--primary-darker);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
@@ -156,4 +162,46 @@ h3 {
 #wrapper {
     display: flex;
     flex-direction: row;
+}
+
+
+/*Buy page*/
+
+#buy_grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+#form p {
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#form a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: var(--secondary-color);
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#form a:hover {
+    cursor: pointer;
+}
+
+#form form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#form form * {
+    background-color: var(--primary-color);
+    border: 6px solid var(--primary-darker);
+    color: white;
+    width: 40%;
+    margin: 20px 0;
+    padding: 10px;
 }
