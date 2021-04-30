@@ -114,9 +114,6 @@ footer {
     margin-top: 20px;
     text-align: center;
     background-color: var(--primary-darker);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 footer p {
@@ -204,4 +201,10 @@ h3 {
     width: 40%;
     margin: 20px 0;
     padding: 10px;
+}
+
+#buy_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
