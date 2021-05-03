@@ -1,7 +1,8 @@
 :root {
-    --primary-color: #AB46E1;
-    --primary-darker: #7D2EA7;
-    --secondary-color: #F9BD16;
+    --primary-color: #9C27B0;
+    --primary-darker: #89119D;
+    --secondary-color: #FFCE00;
+    --font-style: 'Staatliches', cursive;
 }
 
 html {
@@ -17,6 +18,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+    font-family: var(--font-style);
 }
 
 body {
@@ -47,7 +49,7 @@ nav li {
     padding: 10px 20px;
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 nav li:hover {
